@@ -31,7 +31,7 @@ for i,file in enumerate(files):
         "Test ",i," passed!"
     else:
         "Test ",i," passed!"
-        print "Output: ", hand
-        print "Was expecting: ", expects[i]
-print "================"
-print "Run Tests: ",len(files)," Passed: ",totalPassed, ", Failed: ",len(files) - totalPassed
+        print("Output: ", hand)
+        print("Was expecting: ", expects[i])
+print("================")
+print("Run Tests: ",len(files)," Passed: ",totalPassed, ", Failed: ",len(files) - totalPassed)
